@@ -6,7 +6,7 @@ const userRoutes    = require('./routes/userRoutes');
 // express init
 
 const app = express();
-const DB_URI = 'mongodb+srv://user_hexa:streetart34@nodeclusterone.fljqi.mongodb.net/db_user_crud?retryWrites=true&w=majority';
+const DB_URI = 'mongodb+srv://user_hexa:<yourpass>@nodeclusterone.fljqi.mongodb.net/db_user_crud?retryWrites=true&w=majority';
 
 mongoose.connect(DB_URI, {
     useNewUrlParser: true,
